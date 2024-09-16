@@ -1,0 +1,100 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://as1.ftcdn.net/v2/jpg/03/07/34/28/1000_F_307342848_O35SD1QI7zXP2cJl8WjxzhlvjwK8uIx8.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  
+  .container {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+  }
+  
+
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #ffcc00;
+    text-shadow: 0 0 10px rgba(255, 204, 0, 0.7);
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+ 
+  .scores {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .score {
+    font-size: 4rem;
+    margin: 10px 0;
+  }
+  
+ 
+  button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: white;
+  }
+  
+  
+  #player1Btn {
+    background-color: #ff6f61;
+  }
+  
+  #player2Btn {
+    background-color: #6b5b95;
+  }
+  
+  #resetBtn {
+    background-color: #88b04b;
+  }
+  
+  button:hover {
+    background-color: #ffa500;
+  }
+  
+ 
+  .score.winner {
+    color: #00ff00;
+  }
+  
+  
+  .options {
+    margin-top: 20px;
+  }
+  
+  input[type="number"] {
+    padding: 5px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-right: 10px;
+    width: 80px;
+    text-align: center;
+  }
+  

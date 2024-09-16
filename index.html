@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Score Tracker Challenge</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Score Tracker</h1>
+      <div class="scores">
+        <div class="player1">
+          <h2>Player 1</h2>
+          <p class="score" id="player1Score">0</p>
+          <button id="player1Btn">Increase Score</button>
+        </div>
+        <div class="player2">
+          <h2>Player 2</h2>
+          <p class="score" id="player2Score">0</p>
+          <button id="player2Btn">Increase Score</button>
+        </div>
+      </div>
+      <div class="options">
+        <label for="winningScore">Winning Score:</label>
+        <input type="number" id="winningScore" />
+        <button id="resetBtn">Reset</button>
+      </div>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
